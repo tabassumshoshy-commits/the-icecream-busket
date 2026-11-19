@@ -169,6 +169,10 @@ footer p {
   margin: 0.15rem 0;
 }
 
+footer a {
+  color: #fff;
+}
+
 /* Small screens */
 
 @media (max-width: 600px) {
