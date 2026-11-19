@@ -1,0 +1,182 @@
+/* The Icecream Busket — cream / pink / mint demo site */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  background: #fff8ef;
+  color: #4a2c3a;
+  line-height: 1.6;
+}
+
+a {
+  color: #d45d8a;
+}
+
+/* Hero */
+
+.hero {
+  background: linear-gradient(160deg, #ffe3ee 0%, #fff8ef 55%, #dff5e6 100%);
+  padding: 2.5rem 1.25rem 3rem;
+  text-align: center;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 560px;
+  border-radius: 24px;
+  box-shadow: 0 8px 24px rgba(74, 44, 58, 0.18);
+}
+
+.hero-text h1 {
+  font-size: 2.4rem;
+  margin-top: 1.5rem;
+  color: #b23a6b;
+  line-height: 1.2;
+}
+
+.tagline {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #2e8b6a;
+  margin: 0.4rem 0 0.8rem;
+}
+
+.intro {
+  max-width: 560px;
+  margin: 0 auto 1.4rem;
+  font-size: 1.05rem;
+}
+
+.btn {
+  display: inline-block;
+  background: #e77aa8;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 0.7rem 1.6rem;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(179, 58, 107, 0.3);
+}
+
+.btn:hover {
+  background: #d45d8a;
+}
+
+/* Sections */
+
+.section {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2.5rem 1.25rem;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #b23a6b;
+  margin-bottom: 0.4rem;
+}
+
+.section-sub {
+  text-align: center;
+  color: #7a5a6a;
+  margin-bottom: 1.5rem;
+}
+
+.wide-img {
+  display: block;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto 1.8rem;
+  border-radius: 20px;
+  box-shadow: 0 6px 18px rgba(74, 44, 58, 0.15);
+}
+
+/* Flavour cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.1rem;
+}
+
+.card {
+  background: #fff;
+  border: 2px solid #ffe3ee;
+  border-radius: 20px;
+  padding: 1.3rem 1.2rem;
+  box-shadow: 0 4px 14px rgba(74, 44, 58, 0.08);
+}
+
+.card:nth-child(even) {
+  border-color: #d8f3e3;
+}
+
+.card h3 {
+  color: #b23a6b;
+  margin-bottom: 0.35rem;
+  font-size: 1.15rem;
+}
+
+/* About */
+
+.about {
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 4px 16px rgba(74, 44, 58, 0.07);
+}
+
+.about p {
+  max-width: 640px;
+  margin: 0 auto 0.8rem;
+  text-align: center;
+}
+
+/* Visit */
+
+.visit-box {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #dff5e6;
+  border-radius: 20px;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+.visit-box p {
+  margin-bottom: 0.9rem;
+}
+
+.visit-box p:last-child {
+  margin-bottom: 0;
+}
+
+/* Footer */
+
+footer {
+  background: #b23a6b;
+  color: #fff;
+  text-align: center;
+  padding: 1.6rem 1.25rem;
+}
+
+footer p {
+  margin: 0.15rem 0;
+}
+
+/* Small screens */
+
+@media (max-width: 600px) {
+  .hero-text h1 {
+    font-size: 1.9rem;
+  }
+
+  .section h2 {
+    font-size: 1.5rem;
+  }
+}
